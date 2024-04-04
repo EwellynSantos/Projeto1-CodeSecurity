@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-/* Estilos gerais */
+
 body {   
     font-family: "Roboto", sans-serif;
     margin: 0;
@@ -9,7 +9,7 @@ body {
 }
 
 
-/* Estilos do cabeçalho */
+
 header {
     display: flex;
     align-items: center;
@@ -34,7 +34,7 @@ a{
     color: white;
 }
 
-/* Estilos da seção de recursos */
+
 .inicio {
     padding: 0 0 18% 0;
     color: white;
@@ -58,12 +58,12 @@ a{
     display: flex;
     justify-content: space-between;
     gap: 20px;
-    flex-wrap: wrap; /* Permite que os elementos flexíveis se ajustem em várias linhas */
+    flex-wrap: wrap;
     margin-bottom: 10%;
 }
 
 .sobre__conteudo__card {
-    width: 30%; /* Largura do card "Sobre" */
+    width: 30%; 
     background: white;
     border-radius: 6px;
     text-align: center;
@@ -71,7 +71,7 @@ a{
 }
 
 .sobre__outros__cards {
-    width: 20%; /* Largura dos outros cards */
+    width: 20%; 
 }
 
 .sobre__outros__card--terceiro {
