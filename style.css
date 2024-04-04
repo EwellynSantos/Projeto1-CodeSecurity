@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-/* Estilos gerais */
+
 body {   
     font-family: "Roboto", sans-serif;
     margin: 0;
@@ -9,7 +9,7 @@ body {
 }
 
 
-/* Estilos do cabeçalho */
+
 header {
     display: flex;
     align-items: center;
@@ -34,7 +34,7 @@ a{
     color: white;
 }
 
-/* Estilos da seção de recursos */
+
 .inicio {
     padding: 0 0 18% 0;
     color: white;
@@ -58,12 +58,12 @@ a{
     display: flex;
     justify-content: space-between;
     gap: 20px;
-    flex-wrap: wrap; /* Permite que os elementos flexíveis se ajustem em várias linhas */
+    flex-wrap: wrap; 
     margin-bottom: 10%;
 }
 
 .sobre__conteudo__card {
-    width: 30%; /* Largura do card "Sobre" */
+    width: 30%; 
     background: white;
     border-radius: 6px;
     text-align: center;
@@ -71,11 +71,11 @@ a{
 }
 
 .sobre__outros__cards {
-    width: 20%; /* Largura dos outros cards */
+    width: 20%; 
 }
 
 .sobre__outros__card--terceiro {
-    width: 100%; /* Largura total para o terceiro card */
+    width: 100%; 
 }
 
 .sobre {
@@ -86,8 +86,8 @@ a{
 .sobre__conteudo__card,
 .sobre__outros__cards,
 .sobre__outros__card {
-    flex-grow: 1; /* Faz com que os cards ocupem todo o espaço disponível */
-    margin-bottom: 10px; /* Adiciona uma margem inferior entre os cards */
+    flex-grow: 1; 
+    margin-bottom: 10px; 
 }
 
 
@@ -124,11 +124,11 @@ a{
 }
 
 .card h2 {
-    margin-top: 0; /* Remove a margem superior padrão do título */
+    margin-top: 0; 
 }
 
 .card p {
-    margin-bottom: 0; /* Remove a margem inferior padrão do parágrafo */
+    margin-bottom: 0; 
 }
 
 .formulario-section {
@@ -139,11 +139,11 @@ a{
 
 
 .formulario-container form {
-    width: 50%; /* Define a largura do formulário */
+    width: 50%; 
 }
 
 .input-group {
-    margin-bottom: 50px; /* Adiciona espaço entre os inputs */
+    margin-bottom: 50px; 
 }
 
 .input-group label {
@@ -152,21 +152,21 @@ a{
 }
 
 .input-group input {
-    width: 100%; /* Faz os inputs ocuparem toda a largura disponível */
+    width: 100%; 
     padding: 10px;
-    border: 2px solid #009900; /* Bordas verdes */
+    border: 2px solid #009900; 
     border-radius: 5px;
     box-sizing: border-box;
     font-size: 16px;
 }
 
 .button-group {
-    margin-top: 20px; /* Adiciona espaço acima do botão */
+    margin-top: 20px; 
 }
 
 .button-group button {
     padding: 10px 20px;
-    background-color: #00ff00; /* Cor de fundo verde para o botão */
+    background-color: #00ff00;
     color: white;
     border: none;
     border-radius: 5px;
@@ -175,7 +175,7 @@ a{
 }
 
 .button-group button:hover {
-    background-color: #009900; /* Cor de fundo mais escura ao passar o mouse sobre o botão */
+    background-color: #009900; 
 }
 
 .formulario-section {
@@ -184,23 +184,20 @@ a{
 }
 
 .formulario-container {
-    width: 45%; /* Ajuste a largura conforme necessário */
+    width: 45%; 
 }
 
 .redes-sociais {
-    width: 45%; /* Ajuste a largura conforme necessário */
+    width: 45%; 
+
 }
-
-/* Estilos restantes para os inputs e redes sociais */
-
-
 .redes-sociais {
-    width: 50%; /* Define a largura da seção de redes sociais */
-    padding-left: 20px; /* Adiciona um espaçamento à esquerda */
+    width: 50%; 
+    padding-left: 20px;
 }
 
 .redes-sociais h3 {
-    margin-top: 0; /* Remove a margem superior do título */
+    margin-top: 0;
 }
 
 
@@ -224,13 +221,12 @@ button:hover {
     background-color: #173d35a6;
 }
 
-/* Estilos do rodapé */
 footer {
     color: #fff;
     text-align: center;
 }
 
-/* Estilos para dispositivos móveis */
+
 @media screen and (min-width: 768px) {
     body {
         font-size: 16px;
