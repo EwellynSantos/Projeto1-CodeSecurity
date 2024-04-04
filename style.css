@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* Estilos gerais */
+body {   
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0 10%;
+    background-image: url(assets/Background02.png);
+}
+
+
+/* Estilos do cabeçalho */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.cabecalho__logo__img{
+    height: 3em;
+}
+
+.cabecalho__nav a {
+    margin-right: 2em;
+}
+
+.cabecalho__nav a:last-child {
+    margin-right: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* Estilos da seção de recursos */
+.inicio {
+    padding: 0 0 18% 0;
+    color: white;
+}
+
+.inicio__titulo{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    padding-top: 10%;
+
+}
+
+#title__section{
+    color: white;
+    text-align: center;
+    font-size: 2.2em;
+}
+.sobre {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap; /* Permite que os elementos flexíveis se ajustem em várias linhas */
+    margin-bottom: 10%;
+}
+
+.sobre__conteudo__card {
+    width: 30%; /* Largura do card "Sobre" */
+    background: white;
+    border-radius: 6px;
+    text-align: center;
+    padding: 1em;
+}
+
+.sobre__outros__cards {
+    width: 20%; /* Largura dos outros cards */
+}
+
+.sobre__outros__card--terceiro {
+    width: 100%; /* Largura total para o terceiro card */
+}
+
+.sobre {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sobre__conteudo__card,
+.sobre__outros__cards,
+.sobre__outros__card {
+    flex-grow: 1; /* Faz com que os cards ocupem todo o espaço disponível */
+    margin-bottom: 10px; /* Adiciona uma margem inferior entre os cards */
+}
+
+
+
+.sobre__img__card1{
+    width: 100%;
+    border-radius: 6px;
+}
+
+.sobre__img__card2{
+    width: 200%;
+    border-radius: 6px;
+    height: 20em;
+}
+
+.sobre__img__card3{
+    width: 100%;
+    border-radius: 6px;
+}
+
+.servicos {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10%;
+}
+
+.card {
+    flex: 0 0 calc(20% - 10px);
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.card h2 {
+    margin-top: 0; /* Remove a margem superior padrão do título */
+}
+
+.card p {
+    margin-bottom: 0; /* Remove a margem inferior padrão do parágrafo */
+}
+
+.formulario-section {
+    width: 100%;
+    margin-top: 20px;
+    color: white;
+}
+
+
+.formulario-container form {
+    width: 50%; /* Define a largura do formulário */
+}
+
+.input-group {
+    margin-bottom: 50px; /* Adiciona espaço entre os inputs */
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%; /* Faz os inputs ocuparem toda a largura disponível */
+    padding: 10px;
+    border: 2px solid #009900; /* Bordas verdes */
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.button-group {
+    margin-top: 20px; /* Adiciona espaço acima do botão */
+}
+
+.button-group button {
+    padding: 10px 20px;
+    background-color: #00ff00; /* Cor de fundo verde para o botão */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.button-group button:hover {
+    background-color: #009900; /* Cor de fundo mais escura ao passar o mouse sobre o botão */
+}
+
+.formulario-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.formulario-container {
+    width: 45%; /* Ajuste a largura conforme necessário */
+}
+
+.redes-sociais {
+    width: 45%; /* Ajuste a largura conforme necessário */
+}
+
+/* Estilos restantes para os inputs e redes sociais */
+
+
+.redes-sociais {
+    width: 50%; /* Define a largura da seção de redes sociais */
+    padding-left: 20px; /* Adiciona um espaçamento à esquerda */
+}
+
+.redes-sociais h3 {
+    margin-top: 0; /* Remove a margem superior do título */
+}
+
+
+
+.icon__rede{
+    width: 8%;
+}
+
+
+button {
+    background-color: #2d7465a6;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 20px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #173d35a6;
+}
+
+/* Estilos do rodapé */
+footer {
+    color: #fff;
+    text-align: center;
+}
+
+/* Estilos para dispositivos móveis */
+@media screen and (min-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
+    header, section, footer {
+        padding: 40px;
+    }
+}
